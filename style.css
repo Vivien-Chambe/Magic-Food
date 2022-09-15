@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+  }
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background:url(images/fond-teinte24.jpg);
+   
+    
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    color: rgb(40, 3, 77);
+}
+
+.button {
+    background-color: #001aff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    display: inline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background:url(images/fond-teinte24.jpg); */
+}
+
+.centrer{
+    border:solid blue;
+    display: inline-block;
+    margin:45px;
+    padding: 10px;
+    background-color: rgb(111, 133, 255);
+}
+
+#colonne_centre{
+    background-color: white;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
